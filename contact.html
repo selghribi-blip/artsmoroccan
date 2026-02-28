@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="تواصل مع Arts Moroccan — متجر الحرف المغربية الأصيلة في مراكش المدينة العتيقة.">
+  <meta property="og:title" content="اتصل بنا — Arts Moroccan">
+  <meta property="og:description" content="نحن هنا للإجابة على جميع استفساراتكم.">
+  <meta property="og:type" content="website">
+  <title>اتصل بنا — Arts Moroccan</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>🌙</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Arts Moroccan Home">
+        <span class="nav-logo-text">🌙 Arts Moroccan</span>
+        <span class="nav-logo-sub">الفنون المغربية</span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"    data-i18n="nav_home">الرئيسية</a></li>
+        <li><a href="products.html" data-i18n="nav_products">المنتجات</a></li>
+        <li><a href="about.html"    data-i18n="nav_about">من نحن</a></li>
+        <li><a href="contact.html"  data-i18n="nav_contact">اتصل بنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="lang-switcher" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="ar">AR</button>
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="cart-btn" aria-label="Shopping cart" aria-haspopup="true">
+          🛒 <span class="cart-label" data-i18n="nav_cart">السلة</span>
+          <span class="cart-badge" aria-live="polite">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero" aria-labelledby="contact-page-heading">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+        <span aria-hidden="true">›</span>
+        <span data-i18n="nav_contact">اتصل بنا</span>
+      </nav>
+      <h1 id="contact-page-heading" data-i18n="contact_page_title">تواصل معنا</h1>
+      <p data-i18n="contact_subtitle">نحن هنا للإجابة على جميع استفساراتكم</p>
+    </div>
+  </section>
+
+  <div class="pattern-divider" aria-hidden="true"></div>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section" aria-labelledby="contact-page-heading">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- Contact Form -->
+        <div class="contact-form-card">
+          <h2 data-i18n="contact_title">اتصل بنا</h2>
+          <form id="contact-form" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label for="contact-name" data-i18n="contact_name">الاسم الكامل</label>
+              <input type="text" id="contact-name" name="name"
+                     data-i18n-placeholder="contact_name"
+                     placeholder="الاسم الكامل" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="contact-email" data-i18n="contact_email">البريد الإلكتروني</label>
+              <input type="email" id="contact-email" name="email"
+                     data-i18n-placeholder="contact_email"
+                     placeholder="البريد الإلكتروني" required autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="contact-phone" data-i18n="contact_phone">رقم الهاتف</label>
+              <input type="tel" id="contact-phone" name="phone"
+                     data-i18n-placeholder="contact_phone"
+                     placeholder="رقم الهاتف" autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <label for="contact-message" data-i18n="contact_message">رسالتك</label>
+              <textarea id="contact-message" name="message"
+                        data-i18n-placeholder="contact_message"
+                        placeholder="رسالتك" required
+                        rows="5" aria-describedby="msg-hint"></textarea>
+              <span id="msg-hint" style="font-size:.78rem;color:var(--gray-600);margin-top:.25rem;display:block;">
+                نرد على جميع الرسائل خلال 24 ساعة.
+              </span>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;" data-i18n="contact_send">إرسال</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <div class="contact-info-card">
+            <h2 data-i18n="contact_title">اتصل بنا</h2>
+
+            <div class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">📍</span>
+              <div class="contact-info-text">
+                <h4>العنوان / Adresse</h4>
+                <p>درب الحجر، المدينة العتيقة<br>مراكش، المغرب 40000</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">📞</span>
+              <div class="contact-info-text">
+                <h4>الهاتف / Téléphone</h4>
+                <p><a href="tel:+212524000000" style="color:rgba(255,255,255,.78);">+212 524-000-000</a><br>
+                   <a href="tel:+212600000000" style="color:rgba(255,255,255,.78);">+212 600-000-000</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">✉️</span>
+              <div class="contact-info-text">
+                <h4>البريد الإلكتروني / Email</h4>
+                <p><a href="mailto:contact@artsmoroccan.ma" style="color:rgba(255,255,255,.78);">contact@artsmoroccan.ma</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">🕐</span>
+              <div class="contact-info-text">
+                <h4>ساعات العمل / Horaires</h4>
+                <p>الاثنين – السبت: 9:00 – 20:00<br>الأحد: 10:00 – 18:00</p>
+              </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="map-placeholder" role="img" aria-label="Map placeholder — Marrakech Medina">
+              <span aria-hidden="true">🗺️</span>
+              <span>مراكش، المدينة العتيقة</span>
+              <span style="font-size:.75rem;opacity:.6;">Marrakech, Medina</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">🌙 Arts Moroccan</div>
+          <p class="footer-about-text">متجرك المفضل للفنون والحرف المغربية الأصيلة.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="nav_products">المنتجات</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?cat=pottery"  data-i18n="filter_pottery">فخار</a></li>
+            <li><a href="products.html?cat=textiles" data-i18n="filter_textiles">نسيج</a></li>
+            <li><a href="products.html?cat=jewelry"  data-i18n="filter_jewelry">مجوهرات</a></li>
+            <li><a href="products.html?cat=woodwork" data-i18n="filter_woodwork">أعمال خشبية</a></li>
+            <li><a href="products.html?cat=leather"  data-i18n="filter_leather">جلديات</a></li>
+            <li><a href="products.html?cat=vintage"  data-i18n="filter_vintage">تحف قديمة</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="nav_home">الرئيسية</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"   data-i18n="nav_home">الرئيسية</a></li>
+            <li><a href="about.html"   data-i18n="nav_about">من نحن</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_newsletter">اشترك في نشرتنا</h4>
+          <form class="newsletter-form" novalidate aria-label="Newsletter subscription">
+            <input type="email" data-i18n-placeholder="footer_newsletter_placeholder"
+                   placeholder="أدخل بريدك الإلكتروني" required aria-label="Email for newsletter">
+            <button type="submit" data-i18n="footer_newsletter_btn">اشترك</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2024 Arts Moroccan. <span data-i18n="footer_rights">جميع الحقوق محفوظة</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== CART SIDEBAR ========== -->
+  <div class="cart-overlay" id="cart-overlay" role="presentation"></div>
+  <aside class="cart-sidebar" id="cart-sidebar" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="cart-header">
+      <h3 id="cart-title" data-i18n="cart_title">سلة التسوق</h3>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items-list" id="cart-items-container" aria-live="polite">
+      <div class="cart-empty-msg">
+        <div class="empty-icon">🛒</div>
+        <p data-i18n="cart_empty">السلة فارغة</p>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span data-i18n="cart_total">المجموع</span>
+        <span class="cart-total-amount">0 <span data-i18n="currency">درهم</span></span>
+      </div>
+      <button class="checkout-btn" data-i18n="cart_checkout">إتمام الشراء</button>
+    </div>
+  </aside>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
