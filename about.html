@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="قصة Arts Moroccan — شغفنا بالتراث المغربي الأصيل ورسالتنا في حفظ الحرف التقليدية.">
+  <meta property="og:title" content="من نحن — Arts Moroccan">
+  <meta property="og:description" content="تعرف على قصتنا وشغفنا بالحرف المغربية الأصيلة.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://picsum.photos/seed/about-hero/1200/630">
+  <title>من نحن — Arts Moroccan</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>🌙</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Arts Moroccan Home">
+        <span class="nav-logo-text">🌙 Arts Moroccan</span>
+        <span class="nav-logo-sub">الفنون المغربية</span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"    data-i18n="nav_home">الرئيسية</a></li>
+        <li><a href="products.html" data-i18n="nav_products">المنتجات</a></li>
+        <li><a href="about.html"    data-i18n="nav_about">من نحن</a></li>
+        <li><a href="contact.html"  data-i18n="nav_contact">اتصل بنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="lang-switcher" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="ar">AR</button>
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="cart-btn" aria-label="Shopping cart" aria-haspopup="true">
+          🛒 <span class="cart-label" data-i18n="nav_cart">السلة</span>
+          <span class="cart-badge" aria-live="polite">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero" aria-labelledby="about-page-heading">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+        <span aria-hidden="true">›</span>
+        <span data-i18n="nav_about">من نحن</span>
+      </nav>
+      <h1 id="about-page-heading" data-i18n="about_page_title">قصتنا</h1>
+      <p data-i18n="about_page_subtitle">شغف بالتراث المغربي الأصيل</p>
+    </div>
+  </section>
+
+  <div class="pattern-divider" aria-hidden="true"></div>
+
+  <!-- ========== STORY SECTION ========== -->
+  <section class="section" aria-labelledby="story-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <img src="https://picsum.photos/seed/moroccan-artisan/600/420"
+               alt="Artisan marocain au travail" loading="lazy" width="600" height="420">
+        </div>
+        <div class="about-text">
+          <h2 id="story-heading" data-i18n="about_page_title">قصتنا</h2>
+          <p data-i18n="about_text">نحن متجر متخصص في بيع الفنون والحرف المغربية التقليدية الأصيلة. نقدم مجموعة واسعة من الفخار والسجاد والمجوهرات الأمازيغية والأعمال الخشبية والمنتجات الجلدية والتحف القديمة.</p>
+          <p style="color:var(--gray-600);margin-top:1rem;">
+            تأسس متجرنا عام 2010 في قلب مدينة مراكش العتيقة، بهدف الحفاظ على التراث الحرفي المغربي ونقله للأجيال القادمة وإيصاله للعالم. نعمل مباشرة مع أكثر من 80 حرفيًا موهوبًا من مختلف مناطق المملكة.
+          </p>
+          <p style="color:var(--gray-600);margin-top:1rem;">
+            Notre mission est de connecter les artisans marocains talentueux avec des clients du monde entier, tout en préservant les techniques traditionnelles transmises de génération en génération.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="pattern-divider" aria-hidden="true"></div>
+
+  <!-- ========== VALUES SECTION ========== -->
+  <section class="section section-alt" aria-labelledby="values-heading">
+    <div class="container">
+      <h2 class="section-title" id="values-heading">قيمنا · Nos Valeurs · Our Values</h2>
+      <p class="section-subtitle">ما الذي يميزنا</p>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon" aria-hidden="true">🏺</div>
+          <h3>الأصالة</h3>
+          <p>كل منتج لدينا يحمل شهادة أصالة ومصنوع بأيدي حرفيين مهرة وفق التقاليد العريقة.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon" aria-hidden="true">🌿</div>
+          <h3>الاستدامة</h3>
+          <p>نستخدم مواد طبيعية ومستدامة ونعمل على دعم الاقتصاد المحلي وصون البيئة.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon" aria-hidden="true">🤝</div>
+          <h3>الشراكة</h3>
+          <p>نؤمن بالشراكة العادلة مع الحرفيين وضمان أجر عادل ومبادلة ثقافية حقيقية.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon" aria-hidden="true">✨</div>
+          <h3>الجودة</h3>
+          <p>نخضع كل منتج لمعايير صارمة للجودة قبل أن يصل إليكم للتأكد من أفضل تجربة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS SECTION ========== -->
+  <section class="section" aria-labelledby="stats-heading">
+    <div class="container">
+      <h2 class="section-title" id="stats-heading" style="margin-bottom:2.5rem;">أرقامنا تتحدث</h2>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">14+</div>
+          <div class="stat-label">سنة خبرة</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">منتج فريد</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">2K+</div>
+          <div class="stat-label">عميل سعيد</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">80+</div>
+          <div class="stat-label">حرفي موهوب</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="pattern-divider" aria-hidden="true"></div>
+
+  <!-- ========== TEAM SECTION ========== -->
+  <section class="section section-alt" aria-labelledby="team-heading">
+    <div class="container">
+      <h2 class="section-title" id="team-heading">فريقنا · Notre Équipe</h2>
+      <p class="section-subtitle">الأشخاص خلف Arts Moroccan</p>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://picsum.photos/seed/team1/300/220" alt="Youssef El Amrani" loading="lazy" width="300" height="220">
+          <div class="team-card-body">
+            <h3>يوسف العمراني</h3>
+            <p>المؤسس ومدير التسويق</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://picsum.photos/seed/team2/300/220" alt="Fatima Zahra Benali" loading="lazy" width="300" height="220">
+          <div class="team-card-body">
+            <h3>فاطمة الزهراء بنعلي</h3>
+            <p>مديرة العلاقات مع الحرفيين</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://picsum.photos/seed/team3/300/220" alt="Khalid Mansouri" loading="lazy" width="300" height="220">
+          <div class="team-card-body">
+            <h3>خالد المنصوري</h3>
+            <p>مصمم إبداعي</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://picsum.photos/seed/team4/300/220" alt="Nadia Chafik" loading="lazy" width="300" height="220">
+          <div class="team-card-body">
+            <h3>نادية شافيك</h3>
+            <p>مسؤولة خدمة العملاء</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="contact-teaser" aria-labelledby="about-cta-heading">
+    <div class="container">
+      <h2 id="about-cta-heading" data-i18n="contact_title">اتصل بنا</h2>
+      <p data-i18n="contact_subtitle">نحن هنا للإجابة على جميع استفساراتكم</p>
+      <a href="contact.html" class="btn btn-gold" data-i18n="nav_contact">اتصل بنا</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">🌙 Arts Moroccan</div>
+          <p class="footer-about-text">متجرك المفضل للفنون والحرف المغربية الأصيلة.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="nav_products">المنتجات</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?cat=pottery"  data-i18n="filter_pottery">فخار</a></li>
+            <li><a href="products.html?cat=textiles" data-i18n="filter_textiles">نسيج</a></li>
+            <li><a href="products.html?cat=jewelry"  data-i18n="filter_jewelry">مجوهرات</a></li>
+            <li><a href="products.html?cat=woodwork" data-i18n="filter_woodwork">أعمال خشبية</a></li>
+            <li><a href="products.html?cat=leather"  data-i18n="filter_leather">جلديات</a></li>
+            <li><a href="products.html?cat=vintage"  data-i18n="filter_vintage">تحف قديمة</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="nav_home">الرئيسية</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"   data-i18n="nav_home">الرئيسية</a></li>
+            <li><a href="about.html"   data-i18n="nav_about">من نحن</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_newsletter">اشترك في نشرتنا</h4>
+          <form class="newsletter-form" novalidate aria-label="Newsletter subscription">
+            <input type="email" data-i18n-placeholder="footer_newsletter_placeholder"
+                   placeholder="أدخل بريدك الإلكتروني" required aria-label="Email for newsletter">
+            <button type="submit" data-i18n="footer_newsletter_btn">اشترك</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2024 Arts Moroccan. <span data-i18n="footer_rights">جميع الحقوق محفوظة</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== CART SIDEBAR ========== -->
+  <div class="cart-overlay" id="cart-overlay" role="presentation"></div>
+  <aside class="cart-sidebar" id="cart-sidebar" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="cart-header">
+      <h3 id="cart-title" data-i18n="cart_title">سلة التسوق</h3>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items-list" id="cart-items-container" aria-live="polite">
+      <div class="cart-empty-msg">
+        <div class="empty-icon">🛒</div>
+        <p data-i18n="cart_empty">السلة فارغة</p>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span data-i18n="cart_total">المجموع</span>
+        <span class="cart-total-amount">0 <span data-i18n="currency">درهم</span></span>
+      </div>
+      <button class="checkout-btn" data-i18n="cart_checkout">إتمام الشراء</button>
+    </div>
+  </aside>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

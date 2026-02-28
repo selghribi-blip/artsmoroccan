@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="كتالوج منتجات Arts Moroccan — فخار، نسيج، مجوهرات، أعمال خشبية، جلديات وتحف أصيلة.">
+  <meta property="og:title" content="منتجات Arts Moroccan">
+  <meta property="og:description" content="اكتشف مجموعتنا الكاملة من الحرف المغربية الأصيلة.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://picsum.photos/seed/products-hero/1200/630">
+  <title>المنتجات — Arts Moroccan</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>🌙</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Arts Moroccan Home">
+        <span class="nav-logo-text">🌙 Arts Moroccan</span>
+        <span class="nav-logo-sub">الفنون المغربية</span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html"    data-i18n="nav_home">الرئيسية</a></li>
+        <li><a href="products.html" data-i18n="nav_products">المنتجات</a></li>
+        <li><a href="about.html"    data-i18n="nav_about">من نحن</a></li>
+        <li><a href="contact.html"  data-i18n="nav_contact">اتصل بنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="lang-switcher" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="ar">AR</button>
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="cart-btn" aria-label="Shopping cart" aria-haspopup="true">
+          🛒 <span class="cart-label" data-i18n="nav_cart">السلة</span>
+          <span class="cart-badge" aria-live="polite">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero" aria-labelledby="products-page-heading">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+        <span aria-hidden="true">›</span>
+        <span data-i18n="nav_products">المنتجات</span>
+      </nav>
+      <h1 id="products-page-heading" data-i18n="products_title">كتالوج المنتجات</h1>
+      <p data-i18n="products_subtitle">اكتشف مجموعتنا من الحرف المغربية الأصيلة</p>
+    </div>
+  </section>
+
+  <div class="pattern-divider" aria-hidden="true"></div>
+
+  <!-- ========== PRODUCTS SECTION ========== -->
+  <section class="section" aria-labelledby="products-page-heading">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar" role="group" aria-label="Product category filters">
+        <button class="filter-btn active" data-filter="all"      data-i18n="filter_all">الكل</button>
+        <button class="filter-btn" data-filter="pottery"         data-i18n="filter_pottery">فخار</button>
+        <button class="filter-btn" data-filter="textiles"        data-i18n="filter_textiles">نسيج</button>
+        <button class="filter-btn" data-filter="jewelry"         data-i18n="filter_jewelry">مجوهرات</button>
+        <button class="filter-btn" data-filter="woodwork"        data-i18n="filter_woodwork">أعمال خشبية</button>
+        <button class="filter-btn" data-filter="leather"         data-i18n="filter_leather">جلديات</button>
+        <button class="filter-btn" data-filter="vintage"         data-i18n="filter_vintage">تحف قديمة</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" role="list">
+
+        <!-- 1 -->
+        <article class="product-card" role="listitem" data-category="pottery" data-id="p1" data-price="350">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/tajine/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Tajine en céramique" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-pottery" data-i18n="filter_pottery">فخار</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Tajine en céramique</h3>
+            <div class="product-meta">
+              <span class="product-price">350 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="product-card" role="listitem" data-category="textiles" data-id="p2" data-price="1200">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/carpet/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Tapis berbère" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-textiles" data-i18n="filter_textiles">نسيج</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Tapis berbère</h3>
+            <div class="product-meta">
+              <span class="product-price">1200 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="product-card" role="listitem" data-category="jewelry" data-id="p3" data-price="450">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/jewelry/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Collier ambre berbère" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-jewelry" data-i18n="filter_jewelry">مجوهرات</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Collier ambre berbère</h3>
+            <div class="product-meta">
+              <span class="product-price">450 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="product-card" role="listitem" data-category="woodwork" data-id="p4" data-price="2500">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/wood/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Table en bois sculpté" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-woodwork" data-i18n="filter_woodwork">أعمال خشبية</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Table en bois sculpté</h3>
+            <div class="product-meta">
+              <span class="product-price">2500 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="product-card" role="listitem" data-category="leather" data-id="p5" data-price="280">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/leather/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Babouches en cuir" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-leather" data-i18n="filter_leather">جلديات</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Babouches en cuir</h3>
+            <div class="product-meta">
+              <span class="product-price">280 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="product-card" role="listitem" data-category="vintage" data-id="p6" data-price="680">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/lantern/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Lanterne antique" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-vintage" data-i18n="filter_vintage">تحف قديمة</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Lanterne antique</h3>
+            <div class="product-meta">
+              <span class="product-price">680 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article class="product-card" role="listitem" data-category="pottery" data-id="p7" data-price="180">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/bowl/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Bol en poterie" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-pottery" data-i18n="filter_pottery">فخار</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Bol en poterie</h3>
+            <div class="product-meta">
+              <span class="product-price">180 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 8 -->
+        <article class="product-card" role="listitem" data-category="textiles" data-id="p8" data-price="320">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/cushion/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Coussin kilim" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-textiles" data-i18n="filter_textiles">نسيج</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Coussin kilim</h3>
+            <div class="product-meta">
+              <span class="product-price">320 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 9 -->
+        <article class="product-card" role="listitem" data-category="jewelry" data-id="p9" data-price="380">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/bracelet/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Bracelet argent" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-jewelry" data-i18n="filter_jewelry">مجوهرات</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Bracelet argent</h3>
+            <div class="product-meta">
+              <span class="product-price">380 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 10 -->
+        <article class="product-card" role="listitem" data-category="woodwork" data-id="p10" data-price="420">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/teabox/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Boîte à thé en bois" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-woodwork" data-i18n="filter_woodwork">أعمال خشبية</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Boîte à thé en bois</h3>
+            <div class="product-meta">
+              <span class="product-price">420 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 11 -->
+        <article class="product-card" role="listitem" data-category="leather" data-id="p11" data-price="750">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/bag/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Sac en cuir" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-leather" data-i18n="filter_leather">جلديات</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Sac en cuir</h3>
+            <div class="product-meta">
+              <span class="product-price">750 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+        <!-- 12 -->
+        <article class="product-card" role="listitem" data-category="vintage" data-id="p12" data-price="1100">
+          <div class="product-img-wrap">
+            <img data-src="https://picsum.photos/seed/mirror/400/300"
+                 src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/%3E%3C/svg%3E"
+                 alt="Miroir antique" loading="lazy" width="400" height="300">
+            <div class="product-overlay" aria-hidden="true">
+              <span class="overlay-btn" data-i18n="view_details">عرض التفاصيل</span>
+            </div>
+            <span class="product-category-badge badge badge-vintage" data-i18n="filter_vintage">تحف قديمة</span>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Miroir antique</h3>
+            <div class="product-meta">
+              <span class="product-price">1100 <span data-i18n="currency">درهم</span></span>
+              <span class="product-stock" data-i18n="in_stock">متوفر</span>
+            </div>
+            <button class="add-to-cart-btn" data-i18n="add_to_cart">أضف للسلة</button>
+          </div>
+        </article>
+
+      </div><!-- /products-grid -->
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">🌙 Arts Moroccan</div>
+          <p class="footer-about-text">متجرك المفضل للفنون والحرف المغربية الأصيلة.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="nav_products">المنتجات</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?cat=pottery"  data-i18n="filter_pottery">فخار</a></li>
+            <li><a href="products.html?cat=textiles" data-i18n="filter_textiles">نسيج</a></li>
+            <li><a href="products.html?cat=jewelry"  data-i18n="filter_jewelry">مجوهرات</a></li>
+            <li><a href="products.html?cat=woodwork" data-i18n="filter_woodwork">أعمال خشبية</a></li>
+            <li><a href="products.html?cat=leather"  data-i18n="filter_leather">جلديات</a></li>
+            <li><a href="products.html?cat=vintage"  data-i18n="filter_vintage">تحف قديمة</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="nav_home">الرئيسية</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"   data-i18n="nav_home">الرئيسية</a></li>
+            <li><a href="about.html"   data-i18n="nav_about">من نحن</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_newsletter">اشترك في نشرتنا</h4>
+          <form class="newsletter-form" novalidate aria-label="Newsletter subscription">
+            <input type="email" data-i18n-placeholder="footer_newsletter_placeholder"
+                   placeholder="أدخل بريدك الإلكتروني" required aria-label="Email for newsletter">
+            <button type="submit" data-i18n="footer_newsletter_btn">اشترك</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2024 Arts Moroccan. <span data-i18n="footer_rights">جميع الحقوق محفوظة</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== CART SIDEBAR ========== -->
+  <div class="cart-overlay" id="cart-overlay" role="presentation"></div>
+  <aside class="cart-sidebar" id="cart-sidebar" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="cart-header">
+      <h3 id="cart-title" data-i18n="cart_title">سلة التسوق</h3>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items-list" id="cart-items-container" aria-live="polite">
+      <div class="cart-empty-msg">
+        <div class="empty-icon">🛒</div>
+        <p data-i18n="cart_empty">السلة فارغة</p>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span data-i18n="cart_total">المجموع</span>
+        <span class="cart-total-amount">0 <span data-i18n="currency">درهم</span></span>
+      </div>
+      <button class="checkout-btn" data-i18n="cart_checkout">إتمام الشراء</button>
+    </div>
+  </aside>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
