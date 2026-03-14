@@ -25,6 +25,25 @@ const translations = {
     about_text: "نحن متجر متخصص في بيع الفنون والحرف المغربية التقليدية الأصيلة. نقدم مجموعة واسعة من الفخار والسجاد والمجوهرات الأمازيغية والأعمال الخشبية والمنتجات الجلدية والتحف القديمة.",
     contact_title: "اتصل بنا",
     contact_subtitle: "نحن هنا للإجابة على جميع استفساراتكم",
+    services_title: "خدماتنا",
+    services_subtitle: "نقدم لك أفضل خدمات الفنون والحرف المغربية الأصيلة",
+    service_pottery: "الفخار والخزف",
+    service_pottery_desc: "تحف فخارية وخزفية مصنوعة يدويًا بألوان مغربية أصيلة من حرفيي فاس ومراكش.",
+    service_textiles: "السجاد والنسيج",
+    service_textiles_desc: "سجاد أمازيغي وبربري بزخارف تقليدية محكمة مُحاكة بالطرق الأصيلة.",
+    service_jewelry: "المجوهرات الأمازيغية",
+    service_jewelry_desc: "حلي ومجوهرات فضية بزخارف الجنوب المغربي مُصنوعة يدويًا بخبرة عريقة.",
+    service_woodwork: "النجارة والخشب المنقوش",
+    service_woodwork_desc: "أعمال خشبية منقوشة ومطعمة بأنماط مراكشية فريدة، تُزيّن المنازل والمكاتب.",
+    service_leather: "الجلديات التقليدية",
+    service_leather_desc: "حقائب وأحذية وأحزمة جلدية مدبوغة بطريقة تقليدية من دباغي فاس العتيقة.",
+    service_shipping: "توصيل دولي آمن",
+    service_shipping_desc: "نشحن منتجاتنا إلى جميع دول العالم بتغليف محكم وضمان كامل لسلامة البضاعة.",
+    testimonials_title: "شهادات عملائنا",
+    testimonials_subtitle: "ماذا يقول عملاؤنا عن تجربتهم معنا",
+    form_success: "تم إرسال رسالتك بنجاح! سنرد عليك خلال 24 ساعة.",
+    form_error: "حدث خطأ أثناء الإرسال. يرجى المحاولة مجددًا.",
+    nav_services: "خدماتنا",
     footer_newsletter: "اشترك في نشرتنا البريدية",
     footer_newsletter_placeholder: "أدخل بريدك الإلكتروني",
     footer_newsletter_btn: "اشترك",
@@ -76,6 +95,25 @@ const translations = {
     about_text: "Nous sommes une boutique spécialisée dans la vente d'arts et d'artisanats marocains traditionnels authentiques. Nous proposons une large gamme de poteries, tapis, bijoux berbères, objets en bois, maroquinerie et antiquités.",
     contact_title: "Contactez-nous",
     contact_subtitle: "Nous sommes là pour répondre à toutes vos questions",
+    services_title: "Nos Services",
+    services_subtitle: "Découvrez l'excellence de l'artisanat marocain authentique",
+    service_pottery: "Poterie & Céramique",
+    service_pottery_desc: "Pièces en céramique faites à la main avec des couleurs marocaines authentiques.",
+    service_textiles: "Tapis & Tissus",
+    service_textiles_desc: "Tapis berbères et amazighs aux motifs traditionnels tissés selon des techniques ancestrales.",
+    service_jewelry: "Bijoux Amazighs",
+    service_jewelry_desc: "Bijoux en argent ornés de motifs du sud marocain, façonnés à la main avec savoir-faire.",
+    service_woodwork: "Boiserie Sculptée",
+    service_woodwork_desc: "Pièces en bois sculpté avec des motifs marrakchis uniques pour décorer maison et bureau.",
+    service_leather: "Maroquinerie Traditionnelle",
+    service_leather_desc: "Sacs, chaussures et ceintures en cuir tanné selon la méthode traditionnelle de Fès.",
+    service_shipping: "Livraison Internationale",
+    service_shipping_desc: "Nous expédions dans le monde entier avec un emballage soigné et une garantie complète.",
+    testimonials_title: "Témoignages Clients",
+    testimonials_subtitle: "Ce que nos clients disent de leur expérience",
+    form_success: "Message envoyé avec succès ! Nous vous répondrons dans 24 heures.",
+    form_error: "Une erreur s'est produite. Veuillez réessayer.",
+    nav_services: "Services",
     footer_newsletter: "Abonnez-vous à notre newsletter",
     footer_newsletter_placeholder: "Entrez votre email",
     footer_newsletter_btn: "S'abonner",
@@ -127,6 +165,25 @@ const translations = {
     about_text: "We are a specialized store selling authentic traditional Moroccan arts and crafts. We offer a wide range of pottery, rugs, Berber jewelry, woodwork, leather goods, and antiques.",
     contact_title: "Contact Us",
     contact_subtitle: "We are here to answer all your inquiries",
+    services_title: "Our Services",
+    services_subtitle: "Discover the finest Moroccan arts and crafts services",
+    service_pottery: "Pottery & Ceramics",
+    service_pottery_desc: "Handcrafted ceramic pieces with authentic Moroccan colors from Fès and Marrakech artisans.",
+    service_textiles: "Carpets & Textiles",
+    service_textiles_desc: "Berber and Amazigh carpets with traditional patterns woven using ancestral techniques.",
+    service_jewelry: "Amazigh Jewelry",
+    service_jewelry_desc: "Silver jewelry with Southern Moroccan motifs, hand-crafted with generations of expertise.",
+    service_woodwork: "Sculpted Woodwork",
+    service_woodwork_desc: "Carved and inlaid wooden pieces with unique Marrakchi patterns to adorn homes and offices.",
+    service_leather: "Traditional Leather Goods",
+    service_leather_desc: "Bags, shoes, and belts tanned in the traditional method from the ancient tanneries of Fès.",
+    service_shipping: "Safe International Shipping",
+    service_shipping_desc: "We ship worldwide with secure packaging and a full guarantee for your merchandise.",
+    testimonials_title: "Customer Testimonials",
+    testimonials_subtitle: "What our customers say about their experience with us",
+    form_success: "Your message was sent successfully! We will reply within 24 hours.",
+    form_error: "An error occurred while sending. Please try again.",
+    nav_services: "Services",
     footer_newsletter: "Subscribe to our newsletter",
     footer_newsletter_placeholder: "Enter your email",
     footer_newsletter_btn: "Subscribe",
@@ -462,16 +519,64 @@ function showToast(message) {
 }
 
 /* ------------------------------------------------------------------ */
-/*  11. CONTACT FORM                                                    */
+/*  11. CONTACT FORM (Formspree)                                        */
 /* ------------------------------------------------------------------ */
+/**
+ * Submit a form to Formspree via async fetch.
+ * @param {HTMLFormElement} form - The form element (must have a valid Formspree action URL).
+ * @param {HTMLElement|null} statusEl - Optional element to display success/error message.
+ */
+async function submitFormspree(form, statusEl) {
+  const t = translations[currentLang];
+  const data = new FormData(form);
+  try {
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      if (statusEl) {
+        statusEl.textContent = t.form_success || 'Message sent successfully!';
+        statusEl.className = 'form-status success';
+      }
+      showToast('✉️ ' + (t.form_success || 'Sent ✓'));
+      form.reset();
+    } else {
+      const json = await res.json().catch(() => ({}));
+      const msg = (json.errors && json.errors.map(e => e.message).join(', ')) || t.form_error || 'Error sending message.';
+      if (statusEl) {
+        statusEl.textContent = msg;
+        statusEl.className = 'form-status error';
+      }
+      showToast('⚠️ ' + (t.form_error || 'Error'));
+    }
+  } catch (err) {
+    if (statusEl) {
+      statusEl.textContent = t.form_error || 'Connection error.';
+      statusEl.className = 'form-status error';
+    }
+    showToast('⚠️ ' + (t.form_error || 'Connection error'));
+  }
+}
+
 function initContactForm() {
   const form = document.getElementById('contact-form');
   if (!form) return;
+  const statusEl = document.getElementById('contact-form-status');
   form.addEventListener('submit', e => {
     e.preventDefault();
-    const t = translations[currentLang];
-    showToast('✉️ ' + (t.contact_send || 'Sent') + ' ✓');
-    form.reset();
+    submitFormspree(form, statusEl);
+  });
+}
+
+function initLandingContactForm() {
+  const form = document.getElementById('landing-contact-form');
+  if (!form) return;
+  const statusEl = document.getElementById('lc-status');
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    submitFormspree(form, statusEl);
   });
 }
 
@@ -550,6 +655,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initLazyLoad();
   initBackToTop();
   initContactForm();
+  initLandingContactForm();
   initNewsletterForms();
   setActiveNavLink();
 
