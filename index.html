@@ -29,9 +29,10 @@
 
       <ul class="nav-links" id="nav-links" role="list">
         <li><a href="index.html"    data-i18n="nav_home">الرئيسية</a></li>
+        <li><a href="index.html#services" data-i18n="nav_services">خدماتنا</a></li>
         <li><a href="products.html" data-i18n="nav_products">المنتجات</a></li>
         <li><a href="about.html"    data-i18n="nav_about">من نحن</a></li>
-        <li><a href="contact.html"  data-i18n="nav_contact">اتصل بنا</a></li>
+        <li><a href="index.html#contact"  data-i18n="nav_contact">اتصل بنا</a></li>
       </ul>
 
       <div class="nav-actions">
@@ -261,12 +262,177 @@
     </div>
   </section>
 
-  <!-- ========== CONTACT TEASER ========== -->
-  <section class="contact-teaser" aria-labelledby="contact-teaser-heading">
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="section" id="services" aria-labelledby="services-heading">
     <div class="container">
-      <h2 id="contact-teaser-heading" data-i18n="contact_title">اتصل بنا</h2>
-      <p data-i18n="contact_subtitle">نحن هنا للإجابة على جميع استفساراتكم</p>
-      <a href="contact.html" class="btn btn-gold" data-i18n="nav_contact">اتصل بنا</a>
+      <h2 class="section-title" id="services-heading" data-i18n="services_title">خدماتنا</h2>
+      <p class="section-subtitle" data-i18n="services_subtitle">نقدم لك أفضل خدمات الفنون والحرف المغربية الأصيلة</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-icon" aria-hidden="true">🏺</span>
+          <h3 data-i18n="service_pottery">الفخار والخزف</h3>
+          <p data-i18n="service_pottery_desc">تحف فخارية وخزفية مصنوعة يدويًا بألوان مغربية أصيلة من حرفيي فاس ومراكش.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon" aria-hidden="true">🧵</span>
+          <h3 data-i18n="service_textiles">السجاد والنسيج</h3>
+          <p data-i18n="service_textiles_desc">سجاد أمازيغي وبربري بزخارف تقليدية محكمة مُحاكة بالطرق الأصيلة.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon" aria-hidden="true">💎</span>
+          <h3 data-i18n="service_jewelry">المجوهرات الأمازيغية</h3>
+          <p data-i18n="service_jewelry_desc">حلي ومجوهرات فضية بزخارف الجنوب المغربي مُصنوعة يدويًا بخبرة عريقة.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon" aria-hidden="true">🪵</span>
+          <h3 data-i18n="service_woodwork">النجارة والخشب المنقوش</h3>
+          <p data-i18n="service_woodwork_desc">أعمال خشبية منقوشة ومطعمة بأنماط مراكشية فريدة، تُزيّن المنازل والمكاتب.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon" aria-hidden="true">👜</span>
+          <h3 data-i18n="service_leather">الجلديات التقليدية</h3>
+          <p data-i18n="service_leather_desc">حقائب وأحذية وأحزمة جلدية مدبوغة بطريقة تقليدية من دباغي فاس العتيقة.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon" aria-hidden="true">🚚</span>
+          <h3 data-i18n="service_shipping">توصيل دولي آمن</h3>
+          <p data-i18n="service_shipping_desc">نشحن منتجاتنا إلى جميع دول العالم بتغليف محكم وضمان كامل لسلامة البضاعة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="pattern-divider" aria-hidden="true"></div>
+
+  <!-- ========== TESTIMONIALS SECTION ========== -->
+  <section class="section section-alt" id="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <h2 class="section-title" id="testimonials-heading" data-i18n="testimonials_title">شهادات عملائنا</h2>
+      <p class="section-subtitle" data-i18n="testimonials_subtitle">ماذا يقول عملاؤنا عن تجربتهم معنا</p>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">⭐⭐⭐⭐⭐</div>
+          <blockquote class="testimonial-text">
+            منتجات رائعة وجودة عالية جدًا! تجين الخزف الذي اشتريته كان فوق التوقعات. التعبئة كانت ممتازة والتوصيل سريع. سأطلب مجددًا بالتأكيد.
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">ي</div>
+            <div class="testimonial-info">
+              <strong>يوسف بنعلي</strong>
+              <span>الدار البيضاء، المغرب</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">⭐⭐⭐⭐⭐</div>
+          <blockquote class="testimonial-text">
+            J'ai commandé un magnifique tapis berbère. La qualité est exceptionnelle et les couleurs sont exactement comme sur les photos. Livraison rapide et bien emballée. Je recommande vivement !
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">S</div>
+            <div class="testimonial-info">
+              <strong>Sophie Martin</strong>
+              <span>Paris, France</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">⭐⭐⭐⭐⭐</div>
+          <blockquote class="testimonial-text">
+            Absolutely stunning pieces! The Berber silver jewelry I purchased is incredibly authentic and beautifully crafted. The packaging was superb and delivery was faster than expected.
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">A</div>
+            <div class="testimonial-info">
+              <strong>Ahmed Al-Rashid</strong>
+              <span>Dubai, UAE</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LANDING CONTACT SECTION ========== -->
+  <section class="landing-contact" id="contact" aria-labelledby="landing-contact-heading">
+    <div class="container">
+      <h2 class="section-title" id="landing-contact-heading" data-i18n="contact_page_title">تواصل معنا</h2>
+      <p class="section-subtitle" data-i18n="contact_subtitle">نحن هنا للإجابة على جميع استفساراتكم</p>
+
+      <div class="landing-contact-grid">
+
+        <!-- Contact Form via Formspree — replace YOUR_FORM_ID with your actual Formspree form ID from https://formspree.io -->
+        <div class="landing-contact-form">
+          <form id="landing-contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label for="lc-name" data-i18n="contact_name">الاسم الكامل</label>
+              <input type="text" id="lc-name" name="name"
+                     data-i18n-placeholder="contact_name"
+                     placeholder="الاسم الكامل" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="lc-email" data-i18n="contact_email">البريد الإلكتروني</label>
+              <input type="email" id="lc-email" name="email"
+                     data-i18n-placeholder="contact_email"
+                     placeholder="البريد الإلكتروني" required autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="lc-message" data-i18n="contact_message">رسالتك</label>
+              <textarea id="lc-message" name="message"
+                        data-i18n-placeholder="contact_message"
+                        placeholder="رسالتك" required rows="4"></textarea>
+            </div>
+            <input type="hidden" name="_language" value="ar">
+            <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center;" data-i18n="contact_send">إرسال</button>
+            <p class="form-status" id="lc-status" role="alert" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="landing-contact-info">
+          <h3 data-i18n="contact_title">اتصل بنا</h3>
+
+          <div class="contact-info-item">
+            <span class="contact-info-icon" aria-hidden="true">📍</span>
+            <div class="contact-info-text">
+              <h4>العنوان / Adresse</h4>
+              <p>درب الحجر، المدينة العتيقة<br>مراكش، المغرب 40000</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-info-icon" aria-hidden="true">📞</span>
+            <div class="contact-info-text">
+              <h4>الهاتف / Téléphone</h4>
+              <p>
+                <a href="tel:+212524000000">+212 524-000-000</a><br>
+                <a href="tel:+212600000000">+212 600-000-000</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-info-icon" aria-hidden="true">✉️</span>
+            <div class="contact-info-text">
+              <h4>البريد الإلكتروني / Email</h4>
+              <p><a href="mailto:contact@artsmoroccan.ma">contact@artsmoroccan.ma</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-info-icon" aria-hidden="true">🕐</span>
+            <div class="contact-info-text">
+              <h4>ساعات العمل / Horaires</h4>
+              <p>الاثنين – السبت: 9:00 – 20:00<br>الأحد: 10:00 – 18:00</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
